@@ -11,9 +11,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule, // for template form approach
     HttpModule,
-    ReactiveFormsModule
+    ReactiveFormsModule // for reactive fomr approach
   ],
   providers: [],
   bootstrap: [AppComponent]
